@@ -8,6 +8,16 @@ body {
   background: #fff;
   color: #859196; }
 
+
+/* Make the scrollbar track (background) white */
+::-webkit-scrollbar {
+  width: 10px;  /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: white;  /* color of the tracking area */
+}
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -37,6 +47,12 @@ h1, h2, h3, h4, h5,
 
 .text-primary {
   color: #808080 !important; }
+
+  .compact-text {
+    line-height: 1.4;
+    font-size: 18px;
+    color: #666666
+  }
 
 
 .probootstrap-aside {
@@ -111,7 +127,7 @@ h1, h2, h3, h4, h5,
             width: 0;
             left: 0;
             height: 2px;
-            background: #808080;
+            background: #FFFFFF;
             -webkit-transition: .3s width ease-out;
             -o-transition: .3s width ease-out;
             transition: .3s width ease-out; }
@@ -120,7 +136,7 @@ h1, h2, h3, h4, h5,
         .probootstrap-aside .probootstrap-nav ul li.active a:after {
           width: 0%; }
   .probootstrap-aside .probootstrap-overflow {
-    height: 500px; }
+    height: 50px; }
   .probootstrap-aside .probootstrap-aside-footer {
     font-size: 20px;
     padding-left: 30px;
